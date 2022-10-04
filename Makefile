@@ -59,4 +59,4 @@ console: ## Start console in container
 debugconsole: ## Start a debug console in container
 	docker run -it --rm --entrypoint "/bin/ash" $(RNAME):debug
 start: ## Start an container command
-	docker run --rm $(RNAME):$(VER) $(PARAM)
+	docker run -it --rm $(RNAME):$(VER) $(PARAM)

@@ -24,7 +24,7 @@ This image has been builded using [buildx](https://docs.docker.com/buildx/workin
 ### Start container
 
 ```bash
-docker run --rm elswork/lynx \
+docker run -it --rm elswork/lynx \
  http://www.google.com
 ```
 or
